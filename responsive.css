@@ -1,0 +1,39 @@
+@media (max-width: 576px){
+    .container{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+    .text{
+        font-size: 1.1rem;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .col-grad{
+        border-radius: 0 0 2rem 2rem;
+    }
+    .col-grad h4{
+        font-size: 2rem;
+    }
+    .col-norm .sec-card{
+        height: 4rem;
+        margin: 0 0.5rem 1.5rem;
+        padding: 0 1rem;
+    }
+    .col-norm .bl{
+        margin: 0 0.5rem 1rem;
+    }
+
+    .col-norm .btn{
+        margin: 0 0.5rem 1rem;
+        padding: 1rem 0;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 415px){
+    .col-norm .btn{
+        margin-bottom: 1rem;
+    }
+}    
